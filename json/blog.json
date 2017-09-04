@@ -1,0 +1,15 @@
+{
+	"blog":[
+		{
+			"date" : "26/08/2017",
+			"title" : "Capacitive fuel level sensing",
+			"content" : "With electronic system entering the market and putting away mechanical ways of detecting level, electronic system provide much more comprehensive system, where system can be modified easily and provide functionality like alerts, fault detection etc which were never possible with mechanical ways of level detection."
+		},
+
+		{
+			"date" : "26/08/2017",
+			"title" : "CryptoCurrency",
+			"content" : "a digital currency in which encryption techniques are used to regulate the generation of units of currency and verify the transfer of funds, operating independently of a central bank."
+		}
+	]
+}
