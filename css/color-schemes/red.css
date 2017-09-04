@@ -24,7 +24,7 @@
 .blog-content h2 a,
 .features-list  li:hover > .features-content h5,
 .about-right li:hover > i {
-	color:#e74c3c;
+	color:#ff8000;
 }
 
 /* Background Color */
@@ -71,7 +71,7 @@
 .additional-features > i,
 .features-border-top .col-md-3:after,
 .features-border-top .right-border:before{
-	background-color: #e74c3c;
+	background-color:  #ff8000;
 }
 
 /* Border Color */
@@ -84,7 +84,7 @@
 .highlight h3,
 .features-border-top,
 .team .team-box{
-	border-color:#e74c3c;
+	border-color:#ff8000;
 }
 .shortcodes .nav-tabs > li.active > a:focus,
 .shortcodes .nav-tabs > li.active > a{
@@ -94,5 +94,5 @@
 .shortcodes .testimonial .testimonial-inner .testimonial-content:hover,
 .shortcodes .testimonial .testimonial2-inner .testimonial-content,
 .shortcodes .testimonial .testimonial2-inner .testimonial-content:hover {
-	border-bottom-color:#e74c3c;
+	border-bottom-color:#ff8000;
 }
