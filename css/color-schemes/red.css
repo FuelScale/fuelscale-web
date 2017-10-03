@@ -24,7 +24,7 @@
 .blog-content h2 a,
 .features-list  li:hover > .features-content h5,
 .about-right li:hover > i {
-	color:#ff8000;
+	color:#bededb;
 }
 
 /* Background Color */
@@ -71,7 +71,7 @@
 .additional-features > i,
 .features-border-top .col-md-3:after,
 .features-border-top .right-border:before{
-	background-color:  #ff8000;
+	background-color:  #3c82f2;
 }
 
 /* Border Color */
@@ -84,7 +84,7 @@
 .highlight h3,
 .features-border-top,
 .team .team-box{
-	border-color:#ff8000;
+	border-color:#bededb;
 }
 .shortcodes .nav-tabs > li.active > a:focus,
 .shortcodes .nav-tabs > li.active > a{
