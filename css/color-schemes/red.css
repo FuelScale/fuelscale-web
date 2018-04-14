@@ -30,7 +30,7 @@
 /* Background Color */
 .title h2:before,
 .title:before,
-.sticky-wrapper.is-sticky .sticky-navigation,
+.sticky-wrapper.is-sticky,
 #top-section .collapse.in, 
 #header-top #sticky-section-sticky-wrapper, 
 #header-top #sticky-section,
