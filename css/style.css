@@ -510,7 +510,7 @@ a.expand {
 }
 .features-section {
     background: #2c3e50;
-    color: white;
+    color: #909ba3;
     position: relative
 }
 .container.features-inner {
@@ -633,7 +633,7 @@ a.expand {
 }
 .additional-features {
     position: relative;
-    color: white;
+    color: #909ba3;
     line-height: 2;
     text-align: center
 }
@@ -779,12 +779,12 @@ a.expand {
     padding-bottom: 90px
 }
 .screen-img {
-    padding: 10px;
+    padding: 25px;
     text-align: center
 }
 .screen-img img {
     border-radius: 5px;
-    border: 6px solid #f2f6fa;
+    border: 8px solid #eee
 }
 .owl-carousel .owl-item {
     cursor: pointer;
@@ -898,15 +898,10 @@ a.expand {
 .about-right .fa-comment-o {
     font-weight: 400
 }
-.benefits_desk {
+.benefits {
     position: relative;
-    margin-top: 17px;
-    margin-bottom: 20px;
-}
-.benefits_desk {
-    position: relative;
-    margin-top: 17px;
-    margin-bottom: 30px
+    margin-top: -30px;
+    margin-bottom: 50px
 }
 .phone-image-right,
 .piechart span {
@@ -932,7 +927,7 @@ a.expand {
     margin: 10px 20px 5px 9px
 }
 .how-it-works .about-right p {
-    color: #1d2c39;
+    color: #737a7f;
     font-size: 15px;
     line-height: 26px;
     font-weight: 300
@@ -1469,7 +1464,7 @@ bg-text {
 }
 .download-now .btn.iphone {
     margin: 0 5px;
-    padding: 20px 20px 20px 20px
+    padding: 20px 20px 20px 40px
 }
 .container.download-now-inner {
     padding-top: 60px;
@@ -2695,110 +2690,3 @@ blockquote {
 .dgray-shape {
     border-bottom: 70px solid #1d2c39
 }
-
-
-
-
-/*For all the buttons in website*/
-/*------------Starts-----------*/
-/*-----------------------------*/
-
-/* bg shortcodes */
-.bg-gradient1 span,
-.bg-gradient1:before {
-    background: #fa7e29;
-    background: linear-gradient(180deg, #fa7e29 0%, #F6682F 80%, #F6682F 100%);
-}
-
-/* General */
-.wrapper {
-    margin: 4% auto;
-    text-align: center;
-}
-
-.global_button h3 {
-    color: #666a73;
-    font-weight: 300;
-    letter-spacing: 0.06em;
-}
-
-.global_button a {
-    text-decoration: none;
-}
-.global_button a:hover, a:focus, a:active {
-    text-decoration: none;
-}
-
-/* fancy Button */
-.fancy-button {
-    display: inline-block;
-    margin: 20px;
-    font-family: 'Heebo', Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 0.07em;
-    text-transform: uppercase;
-    line-height: 24px;
-    color: #ffffff;
-    position: relative;
-}
-.fancy-button.bg-gradient1 {
-    text-shadow: 0px 0px 1px #BF4C28;
-}
-.fancy-button:before {
-    content: '';
-    display: inline-block;
-    height: 40px;
-    position: absolute;
-    bottom: -1px;
-    left: 10px;
-    right: 10px;
-    z-index: -1;
-    border-radius: 2em;
-    -webkit-filter: blur(14px) brightness(0.9);
-    filter: blur(14px) brightness(0.9);
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    transition: all 0.3s ease-out;
-}
-.fancy-button i {
-    margin-top: -2px;
-    font-size: 1.265em;
-    vertical-align: middle;
-}
-.fancy-button span {
-    display: inline-block;
-    padding: 16px 20px;
-    border-radius: 4px;
-    position: relative;
-    z-index: 2;
-    will-change: transform, filter;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    transition: all 0.3s ease-out;
-}
-.fancy-button:focus {
-    color: #ffffff;
-}
-.fancy-button:hover {
-    color: #ffffff;
-}
-.fancy-button:hover span {
-    -webkit-filter: brightness(0.9) contrast(1.2);
-    filter: brightness(0.9) contrast(1.2);
-    -webkit-transform: scale(0.96);
-    transform: scale(0.96);
-}
-.fancy-button:hover:before {
-    bottom: 3px;
-    -webkit-filter: blur(6px) brightness(0.8);
-    filter: blur(6px) brightness(0.8);
-}
-.fancy-button:active span {
-    -webkit-filter: brightness(0.75) contrast(1.7);
-    filter: brightness(0.75) contrast(1.7);
-}
-
-/*-----------------------------*/
-/*------------Ends-----------*/
-/*For all the buttons in website*/
