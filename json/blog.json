@@ -2,14 +2,22 @@
 	"blog":[
 		{
 			"date" : "26/08/2017",
-			"title" : "Capacitive fuel level sensing",
-			"content" : "With electronic system entering the market and putting away mechanical ways of detecting level, electronic system provide much more comprehensive system, where system can be modified easily and provide functionality like alerts, fault detection etc which were never possible with mechanical ways of level detection."
+			"content" : " FuelScale announces plan for partnership  with Lcard, Russia to deliver ultrasonic fuel   sensor for fleet and asset management solution"
 		},
 
 		{
 			"date" : "21/09/2017",
-			"title" : "12th edition of IREE",
-			"content" : "FuelScale will present in the 12th edition of IREE its smart fuel telematics system for railways and all high diseal consuming vehicles and machinery."
+			"content" : "FuelScale presented in the 12th edition of IREE"
+		},
+
+		{
+			"date" : "25/09/2017",
+			"content" : "FuelScale announces its new capacitance based fuel level sensor in partnership with Technoton"
+		},
+
+		{
+			"date" : "25/09/2017",
+			"content" : "FuelScale partner with Technoton Sensors to improve and deliver better fleet and asset management solutions."
 		}
 	]
 }

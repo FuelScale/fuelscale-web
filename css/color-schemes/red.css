@@ -30,9 +30,9 @@
 /* Background Color */
 .title h2:before,
 .title:before,
-.sticky-wrapper.is-sticky .sticky-navigation,
-#top-section .collapse.in, 
-#header-top #sticky-section-sticky-wrapper, 
+.sticky-wrapper.is-sticky,
+#top-section .collapse.in,
+#header-top #sticky-section-sticky-wrapper,
 #header-top #sticky-section,
 #navigation .dropdown-menu,
 .home-slider .slide-item ,
@@ -41,37 +41,44 @@
 .infograph-section .btn,
 .blog .btn:hover,
 .contact .btn,
-.copyright .copyright-social-icon i:hover, 
-.footer-social-icon i:hover, 
+.copyright .copyright-social-icon i:hover,
+.footer-social-icon i:hover,
 .footer .btn-default,
 .team .social-icon i:hover,
-.filter-menu ul li:hover, 
+.filter-menu ul li:hover,
 .filter-menu ul li.active,
 .twitter-feed,
 .twitter-feed i,
 .blog-outer .blog-social i:hover,
 .blog-single .btn:hover,
 .faq .left-part .faq-panel .accordion-toggle:before,
-.faq #accordion1 .panel-body,  
+.faq #accordion1 .panel-body,
 .shortcodes #accordion1 .panel-body,
 .shortcodes .testimonial .testimonial-inner .testimonial-content:hover,
 .shortcodes .testimonial .testimonial2-inner .testimonial-content:hover,
 .shortcodes .testimonial3-inner .carousel-indicators li.active,
 .shortcodes .carousel .carousel-content a,
-.pagination ul li a, 
+.pagination ul li a,
 .pagination ul li span,
 .features-list  li:hover > i,
 .highlight h3,
-.subscribe-form-submit,
 .social-media i:hover,
-.timeline-title span, 
-.timeline-title2 span,
-.blog-timeline-event-left:before,
-.blog-timeline-event-right:before,
-.additional-features > i,
+.timeline-title span,
+.timeline-title2 span{
+	background-color: #2c3e50;
+}
+
+.additional-features > i{
+	background-color: #2c3e50;
+}
 .features-border-top .col-md-3:after,
 .features-border-top .right-border:before{
-	background-color:  #3c82f2;
+	background-color: white;
+}
+
+.subscribe-form-submit{
+	background: #fa7e29;
+	background: linear-gradient(180deg, #fa7e29 0%, #F6682F 80%, #F6682F 100%);
 }
 
 /* Border Color */
