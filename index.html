@@ -88,7 +88,7 @@
    </div>
    <div class=header-section id=home>
       <div class="relative home-slider" id=video-slide>
-         <div class="relative home-slider" id=slides style="background-color: #1d2c39;">
+         <div class="relative home-slider" id=slides style="background-color: #1d2c39; height: 40vh;">
             <div class="desk_screen" id=fixed_video>
                <div class="player video-container" id=P2 data-property="{videoURL:'t9czg082hH4',containment:'#fixed_video',autoPlay:true, showControls:false, mute:true, startAt:0, opacity:1}" ></div>
             </div>
@@ -123,13 +123,26 @@
             <!--<div class="container absolute"> <img width="30%;" src="images/fuelscale-logo-black.png"></div>-->
             <div class="container absolute text-slider-section" style="margin-top: -15vh;">
                <div class=text-slider>
-                  <img class="desk_screen" width="30%;" src="images/fuelscale-logo-black.png" style="margin-top: -2vh;">
+                  <img class="desk_screen" width="30%;" src="images/fuelscale-logo-black.png" style="margin-top: -4vh;">
                    <img class="mobile_screen" src="images/fuelscale-logo-white.png" style="margin-top: 18vh; margin-bottom: 5vh; margin-left: 3%;">
-                  <ul class="slide-text slides">
-                     <li><span style="background-color:#FF4500">Save Fuel with <span>FuelScale</span></span>
-                     <li><span style="background-color:#FF4500">Saving <span>Millions</span></span>
-                     <li><span style="background-color:#FF4500">Reduce <span>Carbon Footprint</span></span>
-                  </ul>
+
+                         <div class=" row desk_screen" >
+                            <div class="col-lg-3 col-md-3 "></div>
+                            <div class="col-lg-2 col-md-2 fixedtxt" > FuelScale </div>
+                            <div class="col-lg-7 col-md-7 messagetxt" id="txt_update" style="height: 45px;"></div>
+                        </div>
+
+                         <div class=" row mobile_screen" >
+
+                             <div class="col-lg-7 col-md-7 messagetxt" id="txt_update1" style="text-align:left; height: 42px; font-size: 7vw; padding-left: 5px;"></div>
+                        </div>
+
+
+                  <!--<ul class="slide-text slides">-->
+                     <!--<li><span style="background-color: #e98c1f">Save Fuel with <span>FuelScale</span></span>-->
+                     <!--<li><span style="color: #e98c1f">Saving <span>Millions</span></span>-->
+                     <!--<li><span style="color: #e98c1f">Reduce <span>Carbon Footprint</span></span>-->
+                  <!--</ul>-->
                </div>
             </div>
          </div>
@@ -458,8 +471,10 @@
             <div class="animated col-md-6 col-md-offset-3"data-animation=fadeInUp data-animation-delay=300>
                <p class=form-message style=display:none>
                <div class=contact-form>
-                  <form action=subscription.php class=form-horizontal id=contactform1 method=post name=contactform1 role=form>
-                     <div class="form-group subscribe-form-input"><input class="form-control form-control-lg subscribe-form-email"name=contact_email placeholder="Enter your email address"type=email autocomplete=off id=contact_email> <button class="btn btn-black btn-lg subscribe-form-submit bg-gradient1"type=submit data-loading-text=Loading...>Subscribe</button></div>
+                  <form class=form-horizontal id=contactform3 name=contactform1 role=form>
+                     <div class="form-group subscribe-form-input"><input class="form-control form-control-lg subscribe-form-email"name=contact_email placeholder="Enter your email address"type=email autocomplete=off id=contact_email> <button class="btn btn-black btn-lg subscribe-form-submit bg-gradient1"type=submit id="btn-send" data-loading-text=Loading...>Subscribe</button></div>
+                      <div><h4 id="no"></h4></div>
+                      <div id="error" style="color: white"></div>
                   </form>
                </div>
             </div>
@@ -484,56 +499,56 @@
                </div>
               </div>
 
-               <div class="col-md-12 text-center header" style="margin-top: 10vh;">
-                  <div class=title>
-                     <h2 style="font-weight: bold"><span></span> Clients</h2>
-                  </div>
-               </div>
+               <!--<div class="col-md-12 text-center header" style="margin-top: 10vh;">-->
+                  <!--<div class=title>-->
+                     <!--<h2 style="font-weight: bold"><span></span> Clients</h2>-->
+                  <!--</div>-->
+               <!--</div>-->
 
-               <div id="screenshot" class="effects clearfix effect2" >
-                  <div class="screen-img">
-                     <div class="img">
-                        <img src="images/test12.jpg" alt="" class="" />
+               <!--<div id="screenshot" class="effects clearfix effect2" >-->
+                  <!--<div class="screen-img">-->
+                     <!--<div class="img">-->
+                        <!--<img src="images/test12.jpg" alt="" class="" />-->
 
-                     </div>
-                  </div>
-                  <div class="screen-img">
-                     <div class="img">
-                        <img src="images/test12.jpg" alt="" class="" />
+                     <!--</div>-->
+                  <!--</div>-->
+                  <!--<div class="screen-img">-->
+                     <!--<div class="img">-->
+                        <!--<img src="images/test12.jpg" alt="" class="" />-->
 
-                     </div>
-                  </div>
-                  <div class="screen-img">
-                     <div class="img">
-                        <img src="images/test12.jpg" alt="" class="" />
+                     <!--</div>-->
+                  <!--</div>-->
+                  <!--<div class="screen-img">-->
+                     <!--<div class="img">-->
+                        <!--<img src="images/test12.jpg" alt="" class="" />-->
 
-                     </div>
-                  </div>
-                  <div class="screen-img">
-                     <div class="img">
-                        <img src="images/test12.jpg" alt="" class="" />
+                     <!--</div>-->
+                  <!--</div>-->
+                  <!--<div class="screen-img">-->
+                     <!--<div class="img">-->
+                        <!--<img src="images/test12.jpg" alt="" class="" />-->
 
-                     </div>
-                  </div>
-                  <div class="screen-img">
-                     <div class="img">
-                        <img src="images/test12.jpg" alt="" class="" />
+                     <!--</div>-->
+                  <!--</div>-->
+                  <!--<div class="screen-img">-->
+                     <!--<div class="img">-->
+                        <!--<img src="images/test12.jpg" alt="" class="" />-->
 
-                     </div>
-                  </div>
-                  <div class="screen-img">
-                     <div class="img">
-                        <img src="images/test12.jpg" alt="" class="" />
+                     <!--</div>-->
+                  <!--</div>-->
+                  <!--<div class="screen-img">-->
+                     <!--<div class="img">-->
+                        <!--<img src="images/test12.jpg" alt="" class="" />-->
 
-                     </div>
-                  </div>
-                  <div class="screen-img">
-                     <div class="img">
-                        <img src="images/test12.jpg" alt="" class="" />
+                     <!--</div>-->
+                  <!--</div>-->
+                  <!--<div class="screen-img">-->
+                     <!--<div class="img">-->
+                        <!--<img src="images/test12.jpg" alt="" class="" />-->
 
-                     </div>
-                  </div>
-               </div><!-- End Screenshots List-->
+                     <!--</div>-->
+                  <!--</div>-->
+               <!--</div>&lt;!&ndash; End Screenshots List&ndash;&gt;-->
 
                <!--<p class=form-message style=display:none>-->
                <!--<div class=contact-form>-->
@@ -649,10 +664,10 @@
    <script>
        !function(t,e){"use strict";window.CollectId="59ba6a90bb2fd66f9e14261e",function(t){try{var a=e.head||e.getElementsByTagName("head")[0],c=e.createElement("script");c.setAttribute("type","text/javascript"),c.setAttribute("src",t),a.appendChild(c)}catch(t){}}("https://s3.amazonaws.com/collectchat/launcher.js")}(0,document)
    </script>
-   <script src=https://cdn.emailjs.com/dist/email.min.js></script>
-   <script>
-       emailjs.init("user_BP92QMXsDxave10HjFN6n")
-   </script>
+   <!--<script src=https://cdn.emailjs.com/dist/email.min.js></script>-->
+   <!--<script>-->
+       <!--emailjs.init("user_BP92QMXsDxave10HjFN6n")-->
+   <!--</script>-->
    <script src=js/blog.js></script>
    <script src=js/jquery-1.11.0.min.js></script>
    <script src=js/bootstrap.min.js></script>
@@ -679,4 +694,7 @@
    <script src=js/custom.js></script>
    <script src=js/color-panel.js></script>
    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+   <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
+   <script src=js/subscribe.js></script>
+   <script src=First_txt.js></script>
 
